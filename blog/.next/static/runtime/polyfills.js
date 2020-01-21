@@ -1,27 +1,27 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/runtime/polyfills.js"],{
 
-/***/ "./node_modules/next/dist/client/polyfills.js":
-/*!****************************************************!*\
-  !*** ./node_modules/next/dist/client/polyfills.js ***!
-  \****************************************************/
+/***/ "./node_modules/_next@9.1.7@next/dist/client/polyfills.js":
+/*!****************************************************************!*\
+  !*** ./node_modules/_next@9.1.7@next/dist/client/polyfills.js ***!
+  \****************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-__webpack_require__(/*! __next_polyfill__fetch */ "./node_modules/whatwg-fetch/dist/fetch.umd.js");
+__webpack_require__(/*! __next_polyfill__fetch */ "./node_modules/_whatwg-fetch@3.0.0@whatwg-fetch/dist/fetch.umd.js");
 
-__webpack_require__(/*! url-polyfill */ "./node_modules/url-polyfill/url-polyfill.js");
+__webpack_require__(/*! url-polyfill */ "./node_modules/_url-polyfill@1.1.7@url-polyfill/url-polyfill.js");
 
-Object.assign = __webpack_require__(/*! __next_polyfill__object_assign */ "./node_modules/object-assign/index.js");
+Object.assign = __webpack_require__(/*! __next_polyfill__object_assign */ "./node_modules/_object-assign@4.1.1@object-assign/index.js");
 
 /***/ }),
 
-/***/ "./node_modules/object-assign/index.js":
-/*!*********************************************!*\
-  !*** ./node_modules/object-assign/index.js ***!
-  \*********************************************/
+/***/ "./node_modules/_object-assign@4.1.1@object-assign/index.js":
+/*!******************************************************************!*\
+  !*** ./node_modules/_object-assign@4.1.1@object-assign/index.js ***!
+  \******************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -120,10 +120,10 @@ module.exports = shouldUseNative() ? Object.assign : function (target, source) {
 
 /***/ }),
 
-/***/ "./node_modules/url-polyfill/url-polyfill.js":
-/*!***************************************************!*\
-  !*** ./node_modules/url-polyfill/url-polyfill.js ***!
-  \***************************************************/
+/***/ "./node_modules/_url-polyfill@1.1.7@url-polyfill/url-polyfill.js":
+/*!***********************************************************************!*\
+  !*** ./node_modules/_url-polyfill@1.1.7@url-polyfill/url-polyfill.js ***!
+  \***********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -611,11 +611,11 @@ module.exports = shouldUseNative() ? Object.assign : function (target, source) {
     : ((typeof self !== 'undefined') ? self : this))
 );
 
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../webpack/buildin/global.js */ "./node_modules/webpack/buildin/global.js")))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../_webpack@4.41.2@webpack/buildin/global.js */ "./node_modules/_webpack@4.41.2@webpack/buildin/global.js")))
 
 /***/ }),
 
-/***/ "./node_modules/webpack/buildin/global.js":
+/***/ "./node_modules/_webpack@4.41.2@webpack/buildin/global.js":
 /*!***********************************!*\
   !*** (webpack)/buildin/global.js ***!
   \***********************************/
@@ -646,10 +646,10 @@ module.exports = g;
 
 /***/ }),
 
-/***/ "./node_modules/whatwg-fetch/dist/fetch.umd.js":
-/*!*****************************************************!*\
-  !*** ./node_modules/whatwg-fetch/dist/fetch.umd.js ***!
-  \*****************************************************/
+/***/ "./node_modules/_whatwg-fetch@3.0.0@whatwg-fetch/dist/fetch.umd.js":
+/*!*************************************************************************!*\
+  !*** ./node_modules/_whatwg-fetch@3.0.0@whatwg-fetch/dist/fetch.umd.js ***!
+  \*************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1187,5 +1187,5 @@ module.exports = g;
 
 /***/ })
 
-},[["./node_modules/next/dist/client/polyfills.js","static/runtime/webpack.js"]]]);
+},[["./node_modules/_next@9.1.7@next/dist/client/polyfills.js","static/runtime/webpack.js"]]]);
 //# sourceMappingURL=polyfills.js.map
