@@ -1,0 +1,1106 @@
+2020-01-05 15:32:53,645 ERROR 5736 nodejs.ClusterClientNoResponseError: client no response in 303068ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 5736
+hostname: DESKTOP-RKHHTUU
+
+2020-01-05 16:38:49,785 ERROR 8948 [-/127.0.0.1/-/16ms GET /default/index] nodejs.TypeError: Cannot read property 'get' of undefined
+    at HomeController.index (C:\Users\91583\Desktop\jspang-blog\server\app\controller\default\home.js:13:36)
+    at Object.callFn (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 8948
+hostname: DESKTOP-RKHHTUU
+
+2020-01-05 16:41:25,212 ERROR 17700 [-/127.0.0.1/-/5ms GET /default/index] nodejs.TypeError: Cannot read property 'get' of undefined
+    at HomeController.index (C:\Users\91583\Desktop\jspang-blog\server\app\controller\default\home.js:13:36)
+    at Object.callFn (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 17700
+hostname: DESKTOP-RKHHTUU
+
+2020-01-05 16:41:26,637 ERROR 17700 [-/127.0.0.1/-/1ms GET /default/index] nodejs.TypeError: Cannot read property 'get' of undefined
+    at HomeController.index (C:\Users\91583\Desktop\jspang-blog\server\app\controller\default\home.js:13:36)
+    at Object.callFn (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 17700
+hostname: DESKTOP-RKHHTUU
+
+2020-01-05 16:41:27,670 ERROR 17700 [-/127.0.0.1/-/1ms GET /default/index] nodejs.TypeError: Cannot read property 'get' of undefined
+    at HomeController.index (C:\Users\91583\Desktop\jspang-blog\server\app\controller\default\home.js:13:36)
+    at Object.callFn (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 17700
+hostname: DESKTOP-RKHHTUU
+
+2020-01-05 16:41:29,501 ERROR 17700 [-/127.0.0.1/-/1ms GET /default/index] nodejs.TypeError: Cannot read property 'get' of undefined
+    at HomeController.index (C:\Users\91583\Desktop\jspang-blog\server\app\controller\default\home.js:13:36)
+    at Object.callFn (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 17700
+hostname: DESKTOP-RKHHTUU
+
+2020-01-05 16:42:55,249 ERROR 17700 [-/127.0.0.1/-/0ms GET /default/index] nodejs.TypeError: Cannot read property 'get' of undefined
+    at HomeController.index (C:\Users\91583\Desktop\jspang-blog\server\app\controller\default\home.js:13:36)
+    at Object.callFn (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 17700
+hostname: DESKTOP-RKHHTUU
+
+2020-01-05 16:42:56,942 ERROR 17700 [-/127.0.0.1/-/0ms GET /default/index] nodejs.TypeError: Cannot read property 'get' of undefined
+    at HomeController.index (C:\Users\91583\Desktop\jspang-blog\server\app\controller\default\home.js:13:36)
+    at Object.callFn (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 17700
+hostname: DESKTOP-RKHHTUU
+
+2020-01-05 16:42:58,285 ERROR 17700 [-/127.0.0.1/-/0ms GET /default/index] nodejs.TypeError: Cannot read property 'get' of undefined
+    at HomeController.index (C:\Users\91583\Desktop\jspang-blog\server\app\controller\default\home.js:13:36)
+    at Object.callFn (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 17700
+hostname: DESKTOP-RKHHTUU
+
+2020-01-05 16:42:59,445 ERROR 17700 [-/127.0.0.1/-/1ms GET /default/index] nodejs.TypeError: Cannot read property 'get' of undefined
+    at HomeController.index (C:\Users\91583\Desktop\jspang-blog\server\app\controller\default\home.js:13:36)
+    at Object.callFn (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 17700
+hostname: DESKTOP-RKHHTUU
+
+2020-01-05 16:44:00,421 ERROR 15560 [-/127.0.0.1/-/5ms GET /default/index] nodejs.TypeError: Cannot read property 'get' of undefined
+    at HomeController.index (C:\Users\91583\Desktop\jspang-blog\server\app\controller\default\home.js:9:38)
+    at Object.callFn (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 15560
+hostname: DESKTOP-RKHHTUU
+
+2020-01-05 16:46:02,420 ERROR 18096 [-/127.0.0.1/-/8ms GET /default/index] nodejs.TypeError: Cannot read property 'get' of undefined
+    at HomeController.index (C:\Users\91583\Desktop\jspang-blog\server\app\controller\default\home.js:15:38)
+    at Object.callFn (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 18096
+hostname: DESKTOP-RKHHTUU
+
+2020-01-05 16:46:04,118 ERROR 18096 [-/127.0.0.1/-/2ms GET /default/index] nodejs.TypeError: Cannot read property 'get' of undefined
+    at HomeController.index (C:\Users\91583\Desktop\jspang-blog\server\app\controller\default\home.js:15:38)
+    at Object.callFn (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 18096
+hostname: DESKTOP-RKHHTUU
+
+2020-01-05 16:46:53,120 ERROR 3476 [-/127.0.0.1/-/8ms GET /default/index] nodejs.TypeError: Cannot read property 'get' of undefined
+    at HomeController.index (C:\Users\91583\Desktop\jspang-blog\server\app\controller\default\home.js:15:38)
+    at Object.callFn (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 3476
+hostname: DESKTOP-RKHHTUU
+
+2020-01-05 16:46:54,311 ERROR 3476 [-/127.0.0.1/-/1ms GET /default/index] nodejs.TypeError: Cannot read property 'get' of undefined
+    at HomeController.index (C:\Users\91583\Desktop\jspang-blog\server\app\controller\default\home.js:15:38)
+    at Object.callFn (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 3476
+hostname: DESKTOP-RKHHTUU
+
+2020-01-05 16:46:55,290 ERROR 3476 [-/127.0.0.1/-/1ms GET /default/index] nodejs.TypeError: Cannot read property 'get' of undefined
+    at HomeController.index (C:\Users\91583\Desktop\jspang-blog\server\app\controller\default\home.js:15:38)
+    at Object.callFn (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 3476
+hostname: DESKTOP-RKHHTUU
+
+2020-01-05 16:48:00,854 ERROR 3476 [-/127.0.0.1/-/2ms GET /default/index] nodejs.TypeError: Cannot read property 'get' of undefined
+    at HomeController.index (C:\Users\91583\Desktop\jspang-blog\server\app\controller\default\home.js:15:38)
+    at Object.callFn (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 3476
+hostname: DESKTOP-RKHHTUU
+
+2020-01-05 16:48:02,218 ERROR 3476 [-/127.0.0.1/-/1ms GET /default/index] nodejs.TypeError: Cannot read property 'get' of undefined
+    at HomeController.index (C:\Users\91583\Desktop\jspang-blog\server\app\controller\default\home.js:15:38)
+    at Object.callFn (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 3476
+hostname: DESKTOP-RKHHTUU
+
+2020-01-05 16:48:02,958 ERROR 3476 [-/127.0.0.1/-/1ms GET /default/index] nodejs.TypeError: Cannot read property 'get' of undefined
+    at HomeController.index (C:\Users\91583\Desktop\jspang-blog\server\app\controller\default\home.js:15:38)
+    at Object.callFn (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 3476
+hostname: DESKTOP-RKHHTUU
+
+2020-01-05 16:48:03,857 ERROR 3476 [-/127.0.0.1/-/2ms GET /default/index] nodejs.TypeError: Cannot read property 'get' of undefined
+    at HomeController.index (C:\Users\91583\Desktop\jspang-blog\server\app\controller\default\home.js:15:38)
+    at Object.callFn (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 3476
+hostname: DESKTOP-RKHHTUU
+
+2020-01-05 16:48:04,623 ERROR 3476 [-/127.0.0.1/-/1ms GET /default/index] nodejs.TypeError: Cannot read property 'get' of undefined
+    at HomeController.index (C:\Users\91583\Desktop\jspang-blog\server\app\controller\default\home.js:15:38)
+    at Object.callFn (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 3476
+hostname: DESKTOP-RKHHTUU
+
+2020-01-05 16:48:05,342 ERROR 3476 [-/127.0.0.1/-/1ms GET /default/index] nodejs.TypeError: Cannot read property 'get' of undefined
+    at HomeController.index (C:\Users\91583\Desktop\jspang-blog\server\app\controller\default\home.js:15:38)
+    at Object.callFn (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 3476
+hostname: DESKTOP-RKHHTUU
+
+2020-01-05 16:51:11,830 ERROR 10620 [-/127.0.0.1/-/161ms GET /default/index] nodejs.TypeError: Cannot read property 'get' of undefined
+    at HomeController.index (C:\Users\91583\Desktop\jspang-blog\server\app\controller\default\home.js:15:38)
+    at Object.callFn (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 10620
+hostname: DESKTOP-RKHHTUU
+
+2020-01-05 16:51:35,919 ERROR 9120 [-/127.0.0.1/-/25ms GET /default/index] nodejs.TypeError: Cannot read property 'get' of undefined
+    at HomeController.index (C:\Users\91583\Desktop\jspang-blog\server\app\controller\default\home.js:15:38)
+    at Object.callFn (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 9120
+hostname: DESKTOP-RKHHTUU
+
+2020-01-05 16:52:02,486 ERROR 3536 [-/127.0.0.1/-/7ms GET /default/index] nodejs.TypeError: Cannot read property 'get' of undefined
+    at HomeController.index (C:\Users\91583\Desktop\jspang-blog\server\app\controller\default\home.js:15:38)
+    at Object.callFn (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 3536
+hostname: DESKTOP-RKHHTUU
+
+2020-01-05 16:52:13,459 ERROR 3536 [-/127.0.0.1/-/2ms GET /default/index] nodejs.TypeError: Cannot read property 'get' of undefined
+    at HomeController.index (C:\Users\91583\Desktop\jspang-blog\server\app\controller\default\home.js:15:38)
+    at Object.callFn (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 3536
+hostname: DESKTOP-RKHHTUU
+
+2020-01-05 16:55:56,953 ERROR 6608 [-/127.0.0.1/-/13ms GET /default/index] nodejs.TypeError: Cannot read property 'get' of undefined
+    at HomeController.index (C:\Users\91583\Desktop\jspang-blog\server\app\controller\default\home.js:15:38)
+    at Object.callFn (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 6608
+hostname: DESKTOP-RKHHTUU
+
+2020-01-05 16:55:58,219 ERROR 6608 [-/127.0.0.1/-/2ms GET /default/index] nodejs.TypeError: Cannot read property 'get' of undefined
+    at HomeController.index (C:\Users\91583\Desktop\jspang-blog\server\app\controller\default\home.js:15:38)
+    at Object.callFn (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 6608
+hostname: DESKTOP-RKHHTUU
+
+2020-01-05 16:55:59,049 ERROR 6608 [-/127.0.0.1/-/1ms GET /default/index] nodejs.TypeError: Cannot read property 'get' of undefined
+    at HomeController.index (C:\Users\91583\Desktop\jspang-blog\server\app\controller\default\home.js:15:38)
+    at Object.callFn (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 6608
+hostname: DESKTOP-RKHHTUU
+
+2020-01-05 16:55:59,944 ERROR 6608 [-/127.0.0.1/-/1ms GET /default/index] nodejs.TypeError: Cannot read property 'get' of undefined
+    at HomeController.index (C:\Users\91583\Desktop\jspang-blog\server\app\controller\default\home.js:15:38)
+    at Object.callFn (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 6608
+hostname: DESKTOP-RKHHTUU
+
+2020-01-05 16:56:00,740 ERROR 6608 [-/127.0.0.1/-/2ms GET /default/index] nodejs.TypeError: Cannot read property 'get' of undefined
+    at HomeController.index (C:\Users\91583\Desktop\jspang-blog\server\app\controller\default\home.js:15:38)
+    at Object.callFn (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 6608
+hostname: DESKTOP-RKHHTUU
+
+2020-01-05 16:56:01,418 ERROR 6608 [-/127.0.0.1/-/1ms GET /default/index] nodejs.TypeError: Cannot read property 'get' of undefined
+    at HomeController.index (C:\Users\91583\Desktop\jspang-blog\server\app\controller\default\home.js:15:38)
+    at Object.callFn (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 6608
+hostname: DESKTOP-RKHHTUU
+
+2020-01-05 17:06:22,774 ERROR 2992 [-/127.0.0.1/-/6ms GET /default/index] nodejs.TypeError: Cannot read property 'get' of undefined
+    at HomeController.index (C:\Users\91583\Desktop\jspang-blog\server\app\controller\default\home.js:15:38)
+    at Object.callFn (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 2992
+hostname: DESKTOP-RKHHTUU
+
+2020-01-05 17:06:24,040 ERROR 2992 [-/127.0.0.1/-/1ms GET /default/index] nodejs.TypeError: Cannot read property 'get' of undefined
+    at HomeController.index (C:\Users\91583\Desktop\jspang-blog\server\app\controller\default\home.js:15:38)
+    at Object.callFn (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 2992
+hostname: DESKTOP-RKHHTUU
+
+2020-01-05 17:06:24,801 ERROR 2992 [-/127.0.0.1/-/1ms GET /default/index] nodejs.TypeError: Cannot read property 'get' of undefined
+    at HomeController.index (C:\Users\91583\Desktop\jspang-blog\server\app\controller\default\home.js:15:38)
+    at Object.callFn (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 2992
+hostname: DESKTOP-RKHHTUU
+
+2020-01-05 17:06:25,516 ERROR 2992 [-/127.0.0.1/-/1ms GET /default/index] nodejs.TypeError: Cannot read property 'get' of undefined
+    at HomeController.index (C:\Users\91583\Desktop\jspang-blog\server\app\controller\default\home.js:15:38)
+    at Object.callFn (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 2992
+hostname: DESKTOP-RKHHTUU
+
+2020-01-05 17:06:26,236 ERROR 2992 [-/127.0.0.1/-/1ms GET /default/index] nodejs.TypeError: Cannot read property 'get' of undefined
+    at HomeController.index (C:\Users\91583\Desktop\jspang-blog\server\app\controller\default\home.js:15:38)
+    at Object.callFn (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 2992
+hostname: DESKTOP-RKHHTUU
+
+2020-01-05 17:06:27,051 ERROR 2992 [-/127.0.0.1/-/1ms GET /default/index] nodejs.TypeError: Cannot read property 'get' of undefined
+    at HomeController.index (C:\Users\91583\Desktop\jspang-blog\server\app\controller\default\home.js:15:38)
+    at Object.callFn (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 2992
+hostname: DESKTOP-RKHHTUU
+
+2020-01-05 17:06:28,208 ERROR 2992 [-/127.0.0.1/-/1ms GET /default/index] nodejs.TypeError: Cannot read property 'get' of undefined
+    at HomeController.index (C:\Users\91583\Desktop\jspang-blog\server\app\controller\default\home.js:15:38)
+    at Object.callFn (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 2992
+hostname: DESKTOP-RKHHTUU
+
+2020-01-05 17:06:56,770 ERROR 13144 [-/127.0.0.1/-/6ms GET /default/index] nodejs.TypeError: Cannot read property 'get' of undefined
+    at HomeController.index (C:\Users\91583\Desktop\jspang-blog\server\app\controller\default\home.js:15:38)
+    at Object.callFn (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 13144
+hostname: DESKTOP-RKHHTUU
+
+2020-01-05 17:06:57,914 ERROR 13144 [-/127.0.0.1/-/2ms GET /default/index] nodejs.TypeError: Cannot read property 'get' of undefined
+    at HomeController.index (C:\Users\91583\Desktop\jspang-blog\server\app\controller\default\home.js:15:38)
+    at Object.callFn (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 13144
+hostname: DESKTOP-RKHHTUU
+
+2020-01-05 17:06:58,830 ERROR 13144 [-/127.0.0.1/-/2ms GET /default/index] nodejs.TypeError: Cannot read property 'get' of undefined
+    at HomeController.index (C:\Users\91583\Desktop\jspang-blog\server\app\controller\default\home.js:15:38)
+    at Object.callFn (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 13144
+hostname: DESKTOP-RKHHTUU
+
+2020-01-05 17:06:59,603 ERROR 13144 [-/127.0.0.1/-/1ms GET /default/index] nodejs.TypeError: Cannot read property 'get' of undefined
+    at HomeController.index (C:\Users\91583\Desktop\jspang-blog\server\app\controller\default\home.js:15:38)
+    at Object.callFn (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 13144
+hostname: DESKTOP-RKHHTUU
+
+2020-01-05 17:07:00,370 ERROR 13144 [-/127.0.0.1/-/2ms GET /default/index] nodejs.TypeError: Cannot read property 'get' of undefined
+    at HomeController.index (C:\Users\91583\Desktop\jspang-blog\server\app\controller\default\home.js:15:38)
+    at Object.callFn (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 13144
+hostname: DESKTOP-RKHHTUU
+
+2020-01-05 17:07:01,354 ERROR 13144 [-/127.0.0.1/-/2ms GET /default/index] nodejs.TypeError: Cannot read property 'get' of undefined
+    at HomeController.index (C:\Users\91583\Desktop\jspang-blog\server\app\controller\default\home.js:15:38)
+    at Object.callFn (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 13144
+hostname: DESKTOP-RKHHTUU
+
+2020-01-05 17:07:02,161 ERROR 13144 [-/127.0.0.1/-/2ms GET /default/index] nodejs.TypeError: Cannot read property 'get' of undefined
+    at HomeController.index (C:\Users\91583\Desktop\jspang-blog\server\app\controller\default\home.js:15:38)
+    at Object.callFn (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 13144
+hostname: DESKTOP-RKHHTUU
+
+2020-01-05 17:07:03,037 ERROR 13144 [-/127.0.0.1/-/2ms GET /default/index] nodejs.TypeError: Cannot read property 'get' of undefined
+    at HomeController.index (C:\Users\91583\Desktop\jspang-blog\server\app\controller\default\home.js:15:38)
+    at Object.callFn (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 13144
+hostname: DESKTOP-RKHHTUU
+
+2020-01-05 17:07:04,148 ERROR 13144 [-/127.0.0.1/-/1ms GET /default/index] nodejs.TypeError: Cannot read property 'get' of undefined
+    at HomeController.index (C:\Users\91583\Desktop\jspang-blog\server\app\controller\default\home.js:15:38)
+    at Object.callFn (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 13144
+hostname: DESKTOP-RKHHTUU
+
+2020-01-05 17:07:05,425 ERROR 13144 [-/127.0.0.1/-/1ms GET /default/index] nodejs.TypeError: Cannot read property 'get' of undefined
+    at HomeController.index (C:\Users\91583\Desktop\jspang-blog\server\app\controller\default\home.js:15:38)
+    at Object.callFn (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 13144
+hostname: DESKTOP-RKHHTUU
+
+2020-01-05 17:07:07,311 ERROR 13144 [-/127.0.0.1/-/1ms GET /default/index] nodejs.TypeError: Cannot read property 'get' of undefined
+    at HomeController.index (C:\Users\91583\Desktop\jspang-blog\server\app\controller\default\home.js:15:38)
+    at Object.callFn (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 13144
+hostname: DESKTOP-RKHHTUU
+
+2020-01-05 17:10:37,488 ERROR 17260 [-/127.0.0.1/-/20ms GET /default/index] nodejs.TypeError: Cannot read property 'get' of undefined
+    at HomeController.index (C:\Users\91583\Desktop\jspang-blog\server\app\controller\default\home.js:15:38)
+    at Object.callFn (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 17260
+hostname: DESKTOP-RKHHTUU
+
+2020-01-05 17:10:57,219 ERROR 13992 [-/127.0.0.1/-/20ms GET /default/index] nodejs.TypeError: Cannot read property 'get' of undefined
+    at HomeController.index (C:\Users\91583\Desktop\jspang-blog\server\app\controller\default\home.js:15:38)
+    at Object.callFn (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 13992
+hostname: DESKTOP-RKHHTUU
+
+2020-01-05 17:10:58,818 ERROR 13992 [-/127.0.0.1/-/13ms GET /default/index] nodejs.TypeError: Cannot read property 'get' of undefined
+    at HomeController.index (C:\Users\91583\Desktop\jspang-blog\server\app\controller\default\home.js:15:38)
+    at Object.callFn (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 13992
+hostname: DESKTOP-RKHHTUU
+
+2020-01-05 17:10:59,863 ERROR 13992 [-/127.0.0.1/-/14ms GET /default/index] nodejs.TypeError: Cannot read property 'get' of undefined
+    at HomeController.index (C:\Users\91583\Desktop\jspang-blog\server\app\controller\default\home.js:15:38)
+    at Object.callFn (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 13992
+hostname: DESKTOP-RKHHTUU
+
+2020-01-05 17:11:00,644 ERROR 13992 [-/127.0.0.1/-/15ms GET /default/index] nodejs.TypeError: Cannot read property 'get' of undefined
+    at HomeController.index (C:\Users\91583\Desktop\jspang-blog\server\app\controller\default\home.js:15:38)
+    at Object.callFn (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 13992
+hostname: DESKTOP-RKHHTUU
+
+2020-01-05 17:14:56,016 ERROR 3016 [-/127.0.0.1/-/6ms GET /default/index] nodejs.TypeError: Cannot read property 'get' of undefined
+    at HomeController.index (C:\Users\91583\Desktop\jspang-blog\server\app\controller\default\home.js:15:38)
+    at Object.callFn (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 3016
+hostname: DESKTOP-RKHHTUU
+
+2020-01-05 17:16:45,581 ERROR 3016 [-/127.0.0.1/-/2ms GET /default/index] nodejs.TypeError: Cannot read property 'get' of undefined
+    at HomeController.index (C:\Users\91583\Desktop\jspang-blog\server\app\controller\default\home.js:15:38)
+    at Object.callFn (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 3016
+hostname: DESKTOP-RKHHTUU
+
+2020-01-05 17:18:42,836 ERROR 12908 [-/127.0.0.1/-/24ms GET /default/index] nodejs.TypeError: Cannot read property 'get' of undefined
+    at HomeController.index (C:\Users\91583\Desktop\jspang-blog\server\app\controller\default\home.js:15:38)
+    at Object.callFn (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 12908
+hostname: DESKTOP-RKHHTUU
+
+2020-01-05 17:18:44,256 ERROR 12908 [-/127.0.0.1/-/12ms GET /default/index] nodejs.TypeError: Cannot read property 'get' of undefined
+    at HomeController.index (C:\Users\91583\Desktop\jspang-blog\server\app\controller\default\home.js:15:38)
+    at Object.callFn (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 12908
+hostname: DESKTOP-RKHHTUU
+
+2020-01-05 17:18:45,140 ERROR 12908 [-/127.0.0.1/-/13ms GET /default/index] nodejs.TypeError: Cannot read property 'get' of undefined
+    at HomeController.index (C:\Users\91583\Desktop\jspang-blog\server\app\controller\default\home.js:15:38)
+    at Object.callFn (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 12908
+hostname: DESKTOP-RKHHTUU
+
+2020-01-05 17:18:46,122 ERROR 12908 [-/127.0.0.1/-/16ms GET /default/index] nodejs.TypeError: Cannot read property 'get' of undefined
+    at HomeController.index (C:\Users\91583\Desktop\jspang-blog\server\app\controller\default\home.js:15:38)
+    at Object.callFn (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 12908
+hostname: DESKTOP-RKHHTUU
+
+2020-01-05 17:19:23,517 ERROR 12908 [-/127.0.0.1/-/16ms GET /default/index] nodejs.TypeError: Cannot read property 'get' of undefined
+    at HomeController.index (C:\Users\91583\Desktop\jspang-blog\server\app\controller\default\home.js:15:38)
+    at Object.callFn (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 12908
+hostname: DESKTOP-RKHHTUU
+
+2020-01-05 17:19:24,474 ERROR 12908 [-/127.0.0.1/-/10ms GET /default/index] nodejs.TypeError: Cannot read property 'get' of undefined
+    at HomeController.index (C:\Users\91583\Desktop\jspang-blog\server\app\controller\default\home.js:15:38)
+    at Object.callFn (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 12908
+hostname: DESKTOP-RKHHTUU
+
+2020-01-05 17:19:25,313 ERROR 12908 [-/127.0.0.1/-/11ms GET /default/index] nodejs.TypeError: Cannot read property 'get' of undefined
+    at HomeController.index (C:\Users\91583\Desktop\jspang-blog\server\app\controller\default\home.js:15:38)
+    at Object.callFn (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 12908
+hostname: DESKTOP-RKHHTUU
+
+2020-01-05 17:19:26,200 ERROR 12908 [-/127.0.0.1/-/12ms GET /default/index] nodejs.TypeError: Cannot read property 'get' of undefined
+    at HomeController.index (C:\Users\91583\Desktop\jspang-blog\server\app\controller\default\home.js:15:38)
+    at Object.callFn (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 12908
+hostname: DESKTOP-RKHHTUU
+
+2020-01-05 17:19:27,415 ERROR 12908 [-/127.0.0.1/-/12ms GET /default/index] nodejs.TypeError: Cannot read property 'get' of undefined
+    at HomeController.index (C:\Users\91583\Desktop\jspang-blog\server\app\controller\default\home.js:15:38)
+    at Object.callFn (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 12908
+hostname: DESKTOP-RKHHTUU
+
+2020-01-05 17:20:51,238 ERROR 17112 [-/127.0.0.1/-/32ms GET /default/index] nodejs.TypeError: Cannot read property 'get' of undefined
+    at HomeController.index (C:\Users\91583\Desktop\jspang-blog\server\app\controller\default\home.js:15:38)
+    at Object.callFn (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 17112
+hostname: DESKTOP-RKHHTUU
+
+2020-01-05 17:20:55,091 ERROR 17112 [-/127.0.0.1/-/14ms GET /default/index] nodejs.TypeError: Cannot read property 'get' of undefined
+    at HomeController.index (C:\Users\91583\Desktop\jspang-blog\server\app\controller\default\home.js:15:38)
+    at Object.callFn (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 17112
+hostname: DESKTOP-RKHHTUU
+
+2020-01-05 17:20:56,144 ERROR 17112 [-/127.0.0.1/-/12ms GET /default/index] nodejs.TypeError: Cannot read property 'get' of undefined
+    at HomeController.index (C:\Users\91583\Desktop\jspang-blog\server\app\controller\default\home.js:15:38)
+    at Object.callFn (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\91583\Desktop\jspang-blog\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\91583\Desktop\jspang-blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 17112
+hostname: DESKTOP-RKHHTUU
+
+2020-01-05 18:13:28,306 ERROR 6456 [-/127.0.0.1/-/8ms GET /default/getArticleList] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'article LEFT JOIN type ON article.type_id=type_Id' at line 1
+    at Query.Sequence._packetToError (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Pool.query (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at C:\Users\91583\Desktop\jspang-blog\server\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\91583\Desktop\jspang-blog\server\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: SELECT article.id as id,article.title as title,article.introduce as introduce,article.addTime as addTime,article.view_count as view_count,article.typeName as typeNameFROM article LEFT JOIN type ON article.type_id=type_Id
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'article LEFT JOIN type ON article.type_id=type_Id' at line 1"
+sqlState: "42000"
+index: 0
+sql: "SELECT article.id as id,article.title as title,article.introduce as introduce,article.addTime as addTime,article.view_count as view_count,article.typeName as typeNameFROM article LEFT JOIN type ON article.type_id=type_Id"
+name: "ER_PARSE_ERRORError"
+pid: 6456
+hostname: DESKTOP-RKHHTUU
+
+2020-01-05 23:04:19,201 ERROR 7188 [-/127.0.0.1/-/8ms GET /default/getArticleById] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'undefined' in 'where clause'
+    at Query.Sequence._packetToError (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Pool.query (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at C:\Users\91583\Desktop\jspang-blog\server\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\91583\Desktop\jspang-blog\server\node_modules\_co@4.6.0@co\index.js:65:19)
+    at C:\Users\91583\Desktop\jspang-blog\server\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: 
+            SELECT article.id as id,
+        article.title as title,
+        article.introduce as introduce,
+        article.article_content as article_content,
+        FROM_UNIXTIME(article.addTime,'%Y-%m-%d %H:%i:%s' ) as addTime,
+        article.view_count as view_count ,
+        type.typeName as typeName ,
+        type.id as typeId 
+        FROM article LEFT JOIN type ON article.type_id = type.Id 
+        WHERE article.id=undefined
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'undefined' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "\n            SELECT article.id as id,\n        article.title as title,\n        article.introduce as introduce,\n        article.article_content as article_content,\n        FROM_UNIXTIME(article.addTime,'%Y-%m-%d %H:%i:%s' ) as addTime,\n        article.view_count as view_count ,\n        type.typeName as typeName ,\n        type.id as typeId \n        FROM article LEFT JOIN type ON article.type_id = type.Id \n        WHERE article.id=undefined"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 7188
+hostname: DESKTOP-RKHHTUU
+

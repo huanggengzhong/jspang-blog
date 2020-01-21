@@ -1,0 +1,9 @@
+//结合nextjs和npm可以整理如下
+{
+    "presets": ["next/babel"],
+    "plugins": [
+        ["import", {
+            "libraryName": "antd"
+        }]
+    ]
+  }
