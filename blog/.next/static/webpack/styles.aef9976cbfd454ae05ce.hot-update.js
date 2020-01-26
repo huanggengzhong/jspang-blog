@@ -29,7 +29,7 @@ webpackHotUpdate("styles",{
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1579613727761");
+            injectCss(link, link.href.split("?")[0] + "?unix=1580052471224");
           });
       }
     }
@@ -66,7 +66,7 @@ webpackHotUpdate("styles",{
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1579613727768");
+            injectCss(link, link.href.split("?")[0] + "?unix=1580052471204");
           });
       }
     }
@@ -103,7 +103,7 @@ webpackHotUpdate("styles",{
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1579613727780");
+            injectCss(link, link.href.split("?")[0] + "?unix=1580052471232");
           });
       }
     }
@@ -140,7 +140,7 @@ webpackHotUpdate("styles",{
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1579613727774");
+            injectCss(link, link.href.split("?")[0] + "?unix=1580052471213");
           });
       }
     }
@@ -177,7 +177,7 @@ webpackHotUpdate("styles",{
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1579613727664");
+            injectCss(link, link.href.split("?")[0] + "?unix=1580052471016");
           });
       }
     }
@@ -186,4 +186,4 @@ webpackHotUpdate("styles",{
 /***/ })
 
 })
-//# sourceMappingURL=styles.bb1572075a892568621b.hot-update.js.map
+//# sourceMappingURL=styles.aef9976cbfd454ae05ce.hot-update.js.map

@@ -87,3 +87,91 @@
 2020-01-21 21:44:16,693 INFO 9420 [egg-security] compose 7 middlewares into one security middleware
 2020-01-21 21:44:16,703 INFO 9420 [egg:core] dump config after load, 5ms
 2020-01-21 21:44:16,724 INFO 9420 [egg-watcher:application] watcher start success
+2020-01-26 23:15:42,601 INFO 2664 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\91583\\Desktop\\jspang-blog\\server\\logs\\server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-01-26 23:15:42,638 INFO 2664 [egg-multipart] stream mode enable
+2020-01-26 23:15:42,639 INFO 2664 [egg-mysql] connecting root@localhost:3306/react_blog
+2020-01-26 23:15:43,019 INFO 2664 [egg-static] starting static serve /public/ -> C:\Users\91583\Desktop\jspang-blog\server\app\public
+2020-01-26 23:15:43,023 INFO 2664 [egg-security] use csrf middleware
+2020-01-26 23:15:43,025 INFO 2664 [egg-security] use methodnoallow middleware
+2020-01-26 23:15:43,026 INFO 2664 [egg-security] use noopen middleware
+2020-01-26 23:15:43,027 INFO 2664 [egg-security] use nosniff middleware
+2020-01-26 23:15:43,028 INFO 2664 [egg-security] use xssProtection middleware
+2020-01-26 23:15:43,028 INFO 2664 [egg-security] use xframe middleware
+2020-01-26 23:15:43,029 INFO 2664 [egg-security] use dta middleware
+2020-01-26 23:15:43,029 INFO 2664 [egg-security] compose 7 middlewares into one security middleware
+2020-01-26 23:15:43,043 INFO 2664 [egg:core] dump config after load, 6ms
+2020-01-26 23:15:43,066 INFO 2664 [egg-watcher:application] watcher start success
+2020-01-26 23:16:25,515 INFO 6580 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\91583\\Desktop\\jspang-blog\\server\\logs\\server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-01-26 23:16:25,566 INFO 6580 [egg-multipart] stream mode enable
+2020-01-26 23:16:25,566 INFO 6580 [egg-mysql] connecting root@localhost:3306/react_blog
+2020-01-26 23:16:25,728 INFO 6580 [egg-static] starting static serve /public/ -> C:\Users\91583\Desktop\jspang-blog\server\app\public
+2020-01-26 23:16:25,731 INFO 6580 [egg-security] use csrf middleware
+2020-01-26 23:16:25,732 INFO 6580 [egg-security] use methodnoallow middleware
+2020-01-26 23:16:25,733 INFO 6580 [egg-security] use noopen middleware
+2020-01-26 23:16:25,734 INFO 6580 [egg-security] use nosniff middleware
+2020-01-26 23:16:25,734 INFO 6580 [egg-security] use xssProtection middleware
+2020-01-26 23:16:25,735 INFO 6580 [egg-security] use xframe middleware
+2020-01-26 23:16:25,736 INFO 6580 [egg-security] use dta middleware
+2020-01-26 23:16:25,736 INFO 6580 [egg-security] compose 7 middlewares into one security middleware
+2020-01-26 23:16:25,749 INFO 6580 [egg:core] dump config after load, 7ms
+2020-01-26 23:16:25,771 INFO 6580 [egg-watcher:application] watcher start success
+2020-01-26 23:18:42,836 INFO 10300 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\91583\\Desktop\\jspang-blog\\server\\logs\\server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-01-26 23:18:42,874 INFO 10300 [egg-multipart] stream mode enable
+2020-01-26 23:18:42,875 INFO 10300 [egg-mysql] connecting root@localhost:3306/react_blog
+2020-01-26 23:18:43,017 INFO 10300 [egg-static] starting static serve /public/ -> C:\Users\91583\Desktop\jspang-blog\server\app\public
+2020-01-26 23:18:43,020 INFO 10300 [egg-security] use csrf middleware
+2020-01-26 23:18:43,021 INFO 10300 [egg-security] use methodnoallow middleware
+2020-01-26 23:18:43,021 INFO 10300 [egg-security] use noopen middleware
+2020-01-26 23:18:43,022 INFO 10300 [egg-security] use nosniff middleware
+2020-01-26 23:18:43,023 INFO 10300 [egg-security] use xssProtection middleware
+2020-01-26 23:18:43,023 INFO 10300 [egg-security] use xframe middleware
+2020-01-26 23:18:43,024 INFO 10300 [egg-security] use dta middleware
+2020-01-26 23:18:43,024 INFO 10300 [egg-security] compose 7 middlewares into one security middleware
+2020-01-26 23:18:43,035 INFO 10300 [egg:core] dump config after load, 5ms
+2020-01-26 23:18:43,058 INFO 10300 [egg-watcher:application] watcher start success
+2020-01-26 23:19:14,629 INFO 1384 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\91583\\Desktop\\jspang-blog\\server\\logs\\server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-01-26 23:19:14,673 INFO 1384 [egg-multipart] stream mode enable
+2020-01-26 23:19:14,675 INFO 1384 [egg-mysql] connecting root@localhost:3306/react_blog
+2020-01-26 23:19:15,014 INFO 1384 [egg-static] starting static serve /public/ -> C:\Users\91583\Desktop\jspang-blog\server\app\public
+2020-01-26 23:19:15,018 INFO 1384 [egg-security] use csrf middleware
+2020-01-26 23:19:15,019 INFO 1384 [egg-security] use methodnoallow middleware
+2020-01-26 23:19:15,019 INFO 1384 [egg-security] use noopen middleware
+2020-01-26 23:19:15,021 INFO 1384 [egg-security] use nosniff middleware
+2020-01-26 23:19:15,021 INFO 1384 [egg-security] use xssProtection middleware
+2020-01-26 23:19:15,022 INFO 1384 [egg-security] use xframe middleware
+2020-01-26 23:19:15,022 INFO 1384 [egg-security] use dta middleware
+2020-01-26 23:19:15,022 INFO 1384 [egg-security] compose 7 middlewares into one security middleware
+2020-01-26 23:19:15,035 INFO 1384 [egg:core] dump config after load, 7ms
+2020-01-26 23:19:15,061 INFO 1384 [egg-watcher:application] watcher start success
+2020-01-26 23:21:01,630 INFO 14668 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\91583\\Desktop\\jspang-blog\\server\\logs\\server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-01-26 23:21:01,658 INFO 14668 [egg-multipart] stream mode enable
+2020-01-26 23:21:01,659 INFO 14668 [egg-mysql] connecting root@localhost:3306/react_blog
+2020-01-26 23:21:01,818 INFO 14668 [egg-static] starting static serve /public/ -> C:\Users\91583\Desktop\jspang-blog\server\app\public
+2020-01-26 23:21:01,823 INFO 14668 [egg-security] use csrf middleware
+2020-01-26 23:21:01,825 INFO 14668 [egg-security] use methodnoallow middleware
+2020-01-26 23:21:01,825 INFO 14668 [egg-security] use noopen middleware
+2020-01-26 23:21:01,826 INFO 14668 [egg-security] use nosniff middleware
+2020-01-26 23:21:01,827 INFO 14668 [egg-security] use xssProtection middleware
+2020-01-26 23:21:01,828 INFO 14668 [egg-security] use xframe middleware
+2020-01-26 23:21:01,829 INFO 14668 [egg-security] use dta middleware
+2020-01-26 23:21:01,829 INFO 14668 [egg-security] compose 7 middlewares into one security middleware
+2020-01-26 23:21:01,841 INFO 14668 [egg:core] dump config after load, 6ms
+2020-01-26 23:21:01,861 INFO 14668 [egg-watcher:application] watcher start success
+2020-01-26 23:21:01,867 INFO 14668 [egg-mysql] instance[0] status OK, rds currentTime: Sun Jan 26 2020 23:21:01 GMT+0800 (GMT+08:00)
+2020-01-26 23:21:01,873 INFO 14668 [egg:core] dump config after ready, 5ms
+2020-01-26 23:21:42,736 INFO 13960 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\91583\\Desktop\\jspang-blog\\server\\logs\\server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-01-26 23:21:42,764 INFO 13960 [egg-multipart] stream mode enable
+2020-01-26 23:21:42,764 INFO 13960 [egg-mysql] connecting root@localhost:3306/react_blog
+2020-01-26 23:21:42,970 INFO 13960 [egg-static] starting static serve /public/ -> C:\Users\91583\Desktop\jspang-blog\server\app\public
+2020-01-26 23:21:42,974 INFO 13960 [egg-security] use csrf middleware
+2020-01-26 23:21:42,975 INFO 13960 [egg-security] use methodnoallow middleware
+2020-01-26 23:21:42,975 INFO 13960 [egg-security] use noopen middleware
+2020-01-26 23:21:42,977 INFO 13960 [egg-security] use nosniff middleware
+2020-01-26 23:21:42,977 INFO 13960 [egg-security] use xssProtection middleware
+2020-01-26 23:21:42,977 INFO 13960 [egg-security] use xframe middleware
+2020-01-26 23:21:42,978 INFO 13960 [egg-security] use dta middleware
+2020-01-26 23:21:42,978 INFO 13960 [egg-security] compose 7 middlewares into one security middleware
+2020-01-26 23:21:42,989 INFO 13960 [egg:core] dump config after load, 5ms
+2020-01-26 23:21:43,009 INFO 13960 [egg-watcher:application] watcher start success
+2020-01-26 23:21:43,012 INFO 13960 [egg-mysql] instance[0] status OK, rds currentTime: Sun Jan 26 2020 23:21:43 GMT+0800 (GMT+08:00)
+2020-01-26 23:21:43,023 INFO 13960 [egg:core] dump config after ready, 6ms

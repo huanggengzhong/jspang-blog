@@ -49,3 +49,63 @@
 2020-01-21 21:44:15,315 INFO 512 [egg-watcher] Start watching: "C:\\Users\\91583\\Desktop\\jspang-blog\\server\\app.js"
 2020-01-21 21:44:15,315 INFO 512 [egg-watcher:agent] watcher start success
 2020-01-21 21:44:15,324 INFO 512 [egg:core] dump config after ready, 4ms
+2020-01-26 23:15:40,810 INFO 11792 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\91583\\Desktop\\jspang-blog\\server\\logs\\server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-01-26 23:15:40,821 INFO 11792 [egg:core] dump config after load, 5ms
+2020-01-26 23:15:40,898 INFO 11792 [egg-watcher] Start watching: ["C:\\Users\\91583\\Desktop\\jspang-blog\\server\\app","C:\\Users\\91583\\Desktop\\jspang-blog\\server\\config","C:\\Users\\91583\\Desktop\\jspang-blog\\server\\mocks","C:\\Users\\91583\\Desktop\\jspang-blog\\server\\mocks_proxy","C:\\Users\\91583\\Desktop\\jspang-blog\\server\\app.js"]
+2020-01-26 23:15:40,898 INFO 11792 [egg-watcher] Start watching: "C:\\Users\\91583\\Desktop\\jspang-blog\\server\\app"
+2020-01-26 23:15:40,899 INFO 11792 [egg-watcher] Start watching: "C:\\Users\\91583\\Desktop\\jspang-blog\\server\\config"
+2020-01-26 23:15:40,899 INFO 11792 [egg-watcher] Start watching: "C:\\Users\\91583\\Desktop\\jspang-blog\\server\\mocks"
+2020-01-26 23:15:40,900 INFO 11792 [egg-watcher] Start watching: "C:\\Users\\91583\\Desktop\\jspang-blog\\server\\mocks_proxy"
+2020-01-26 23:15:40,900 INFO 11792 [egg-watcher] Start watching: "C:\\Users\\91583\\Desktop\\jspang-blog\\server\\app.js"
+2020-01-26 23:15:40,900 INFO 11792 [egg-watcher:agent] watcher start success
+2020-01-26 23:15:40,930 INFO 11792 [egg:core] dump config after ready, 12ms
+2020-01-26 23:16:23,388 INFO 11764 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\91583\\Desktop\\jspang-blog\\server\\logs\\server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-01-26 23:16:23,398 INFO 11764 [egg:core] dump config after load, 4ms
+2020-01-26 23:16:23,435 INFO 11764 [egg-watcher] Start watching: ["C:\\Users\\91583\\Desktop\\jspang-blog\\server\\app","C:\\Users\\91583\\Desktop\\jspang-blog\\server\\config","C:\\Users\\91583\\Desktop\\jspang-blog\\server\\mocks","C:\\Users\\91583\\Desktop\\jspang-blog\\server\\mocks_proxy","C:\\Users\\91583\\Desktop\\jspang-blog\\server\\app.js"]
+2020-01-26 23:16:23,435 INFO 11764 [egg-watcher] Start watching: "C:\\Users\\91583\\Desktop\\jspang-blog\\server\\app"
+2020-01-26 23:16:23,436 INFO 11764 [egg-watcher] Start watching: "C:\\Users\\91583\\Desktop\\jspang-blog\\server\\config"
+2020-01-26 23:16:23,436 INFO 11764 [egg-watcher] Start watching: "C:\\Users\\91583\\Desktop\\jspang-blog\\server\\mocks"
+2020-01-26 23:16:23,436 INFO 11764 [egg-watcher] Start watching: "C:\\Users\\91583\\Desktop\\jspang-blog\\server\\mocks_proxy"
+2020-01-26 23:16:23,436 INFO 11764 [egg-watcher] Start watching: "C:\\Users\\91583\\Desktop\\jspang-blog\\server\\app.js"
+2020-01-26 23:16:23,436 INFO 11764 [egg-watcher:agent] watcher start success
+2020-01-26 23:16:23,448 INFO 11764 [egg:core] dump config after ready, 5ms
+2020-01-26 23:18:41,500 INFO 13408 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\91583\\Desktop\\jspang-blog\\server\\logs\\server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-01-26 23:18:41,510 INFO 13408 [egg:core] dump config after load, 4ms
+2020-01-26 23:18:41,551 INFO 13408 [egg-watcher] Start watching: ["C:\\Users\\91583\\Desktop\\jspang-blog\\server\\app","C:\\Users\\91583\\Desktop\\jspang-blog\\server\\config","C:\\Users\\91583\\Desktop\\jspang-blog\\server\\mocks","C:\\Users\\91583\\Desktop\\jspang-blog\\server\\mocks_proxy","C:\\Users\\91583\\Desktop\\jspang-blog\\server\\app.js"]
+2020-01-26 23:18:41,551 INFO 13408 [egg-watcher] Start watching: "C:\\Users\\91583\\Desktop\\jspang-blog\\server\\app"
+2020-01-26 23:18:41,551 INFO 13408 [egg-watcher] Start watching: "C:\\Users\\91583\\Desktop\\jspang-blog\\server\\config"
+2020-01-26 23:18:41,551 INFO 13408 [egg-watcher] Start watching: "C:\\Users\\91583\\Desktop\\jspang-blog\\server\\mocks"
+2020-01-26 23:18:41,551 INFO 13408 [egg-watcher] Start watching: "C:\\Users\\91583\\Desktop\\jspang-blog\\server\\mocks_proxy"
+2020-01-26 23:18:41,552 INFO 13408 [egg-watcher] Start watching: "C:\\Users\\91583\\Desktop\\jspang-blog\\server\\app.js"
+2020-01-26 23:18:41,552 INFO 13408 [egg-watcher:agent] watcher start success
+2020-01-26 23:18:41,564 INFO 13408 [egg:core] dump config after ready, 6ms
+2020-01-26 23:19:12,898 INFO 12796 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\91583\\Desktop\\jspang-blog\\server\\logs\\server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-01-26 23:19:12,912 INFO 12796 [egg:core] dump config after load, 5ms
+2020-01-26 23:19:12,959 INFO 12796 [egg-watcher] Start watching: ["C:\\Users\\91583\\Desktop\\jspang-blog\\server\\app","C:\\Users\\91583\\Desktop\\jspang-blog\\server\\config","C:\\Users\\91583\\Desktop\\jspang-blog\\server\\mocks","C:\\Users\\91583\\Desktop\\jspang-blog\\server\\mocks_proxy","C:\\Users\\91583\\Desktop\\jspang-blog\\server\\app.js"]
+2020-01-26 23:19:12,959 INFO 12796 [egg-watcher] Start watching: "C:\\Users\\91583\\Desktop\\jspang-blog\\server\\app"
+2020-01-26 23:19:12,959 INFO 12796 [egg-watcher] Start watching: "C:\\Users\\91583\\Desktop\\jspang-blog\\server\\config"
+2020-01-26 23:19:12,959 INFO 12796 [egg-watcher] Start watching: "C:\\Users\\91583\\Desktop\\jspang-blog\\server\\mocks"
+2020-01-26 23:19:12,959 INFO 12796 [egg-watcher] Start watching: "C:\\Users\\91583\\Desktop\\jspang-blog\\server\\mocks_proxy"
+2020-01-26 23:19:12,960 INFO 12796 [egg-watcher] Start watching: "C:\\Users\\91583\\Desktop\\jspang-blog\\server\\app.js"
+2020-01-26 23:19:12,960 INFO 12796 [egg-watcher:agent] watcher start success
+2020-01-26 23:19:12,970 INFO 12796 [egg:core] dump config after ready, 5ms
+2020-01-26 23:21:00,106 INFO 11012 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\91583\\Desktop\\jspang-blog\\server\\logs\\server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-01-26 23:21:00,116 INFO 11012 [egg:core] dump config after load, 4ms
+2020-01-26 23:21:00,152 INFO 11012 [egg-watcher] Start watching: ["C:\\Users\\91583\\Desktop\\jspang-blog\\server\\app","C:\\Users\\91583\\Desktop\\jspang-blog\\server\\config","C:\\Users\\91583\\Desktop\\jspang-blog\\server\\mocks","C:\\Users\\91583\\Desktop\\jspang-blog\\server\\mocks_proxy","C:\\Users\\91583\\Desktop\\jspang-blog\\server\\app.js"]
+2020-01-26 23:21:00,152 INFO 11012 [egg-watcher] Start watching: "C:\\Users\\91583\\Desktop\\jspang-blog\\server\\app"
+2020-01-26 23:21:00,153 INFO 11012 [egg-watcher] Start watching: "C:\\Users\\91583\\Desktop\\jspang-blog\\server\\config"
+2020-01-26 23:21:00,153 INFO 11012 [egg-watcher] Start watching: "C:\\Users\\91583\\Desktop\\jspang-blog\\server\\mocks"
+2020-01-26 23:21:00,153 INFO 11012 [egg-watcher] Start watching: "C:\\Users\\91583\\Desktop\\jspang-blog\\server\\mocks_proxy"
+2020-01-26 23:21:00,153 INFO 11012 [egg-watcher] Start watching: "C:\\Users\\91583\\Desktop\\jspang-blog\\server\\app.js"
+2020-01-26 23:21:00,153 INFO 11012 [egg-watcher:agent] watcher start success
+2020-01-26 23:21:00,163 INFO 11012 [egg:core] dump config after ready, 4ms
+2020-01-26 23:21:40,287 INFO 7204 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\91583\\Desktop\\jspang-blog\\server\\logs\\server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-01-26 23:21:40,297 INFO 7204 [egg:core] dump config after load, 4ms
+2020-01-26 23:21:40,338 INFO 7204 [egg-watcher] Start watching: ["C:\\Users\\91583\\Desktop\\jspang-blog\\server\\app","C:\\Users\\91583\\Desktop\\jspang-blog\\server\\config","C:\\Users\\91583\\Desktop\\jspang-blog\\server\\mocks","C:\\Users\\91583\\Desktop\\jspang-blog\\server\\mocks_proxy","C:\\Users\\91583\\Desktop\\jspang-blog\\server\\app.js"]
+2020-01-26 23:21:40,338 INFO 7204 [egg-watcher] Start watching: "C:\\Users\\91583\\Desktop\\jspang-blog\\server\\app"
+2020-01-26 23:21:40,339 INFO 7204 [egg-watcher] Start watching: "C:\\Users\\91583\\Desktop\\jspang-blog\\server\\config"
+2020-01-26 23:21:40,339 INFO 7204 [egg-watcher] Start watching: "C:\\Users\\91583\\Desktop\\jspang-blog\\server\\mocks"
+2020-01-26 23:21:40,339 INFO 7204 [egg-watcher] Start watching: "C:\\Users\\91583\\Desktop\\jspang-blog\\server\\mocks_proxy"
+2020-01-26 23:21:40,339 INFO 7204 [egg-watcher] Start watching: "C:\\Users\\91583\\Desktop\\jspang-blog\\server\\app.js"
+2020-01-26 23:21:40,339 INFO 7204 [egg-watcher:agent] watcher start success
+2020-01-26 23:21:40,351 INFO 7204 [egg:core] dump config after ready, 4ms
